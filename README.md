@@ -2,7 +2,7 @@
 
 ```yaml
 apiVersion: 🆚3️⃣1️⃣
-kind: 
+kind: Human 
 metadata:
   name: Anas Kaaouachi
 spec:
@@ -23,32 +23,32 @@ spec:
       where: +32 492 07 56 05
   skills:
     - 
-      type: Development
+      type: 💻 Development
       which: .Net/C# | Javascript | Go (Golang) | Java | Dart
     - 
-      type: Scripting
+      type: 📜 Scripting
       which: 🐚 Bash, Powershell
     -
-      type: DevOps
+      type: ♾️ DevOps
       subtype:
         - 
           collaborate:
             app_lifecycle: Trello
             chatOps: Slack
         -
-          build:
+          🚧 build:
             scm_vcs: Git, Github, Gitlab
             ci_cd: Jenkins
             build: docker, maven, gulp
         - 
-          test:
+          🧪 test:
             test_automation: (learning) Selenium
         - 
-          deploy:
+          🚦 deploy:
             - deployment: Ssh
             - config_management: Ansible, Vagrant, (learning) Terraform
         -
-          run:
+          🚀 run:
             - cloud: Microsoft Azure, Openstack
             - orchestration: Docker swarm, Kubernetes
             - monitoring: Prometheus, Grafana
