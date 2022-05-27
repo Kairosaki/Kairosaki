@@ -49,7 +49,7 @@ spec:
             - config_management: Ansible, Vagrant, (learning) Terraform
         -
           🚀 run:
-            - cloud: Microsoft Azure, Openstack
+            - cloud: Aws, Openstack
             - orchestration: Docker swarm, Kubernetes
             - monitoring: Prometheus, Grafana
      -
