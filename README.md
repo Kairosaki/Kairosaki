@@ -26,27 +26,31 @@ spec:
       type: 💻 Development
       which: .Net/C# | Javascript | Go (Golang) | Java | Dart
     - 
+      type: 📡 Networking
+      protocols : TCP/IP, FTP, SSH, SSL, TLS, HTTP, SFTP, SCP, SMTP
+      servers:  DHCP, DNS, HTTP, FTP, SSH, SAMBA, NFS
+    - 
       type: 📜 Scripting
       which: 🐚 Bash, Powershell
     -
       type: ♾️ DevOps
       subtype:
         - 
-          collaborate:
-            app_lifecycle: Trello
-            chatOps: Slack
+          🤝 collaborate:
+              - app_lifecycle: Trello
+              - chatOps: Slack
         -
           🚧 build:
-            scm_vcs: Git, Github, Gitlab
-            ci_cd: Jenkins
-            build: docker, maven, gulp
+              - scm_vcs: Git, Github, Gitlab
+              - ci_cd: Jenkins, Gitlab CI/CD
+              - build: docker, maven, gulp
         - 
           🧪 test:
-            test_automation: (learning) Selenium
+              - test_automation: (learning) Selenium
         - 
           🚦 deploy:
-            - deployment: Ssh
             - config_management: Ansible, Vagrant, (learning) Terraform
+            - artefact_management: DockerHub, Docker Registry, Nuget
         -
           🚀 run:
             - cloud: Aws, Openstack
@@ -60,7 +64,7 @@ spec:
       which: MySql, Postgres, MariaDb
      -
       type: Operating System
-      which: Windows 7/8/10, Linux (Debian, CentOs, Ubuntu, Mint, Alpine)
+      which: Linux (Debian, CentOs, Ubuntu, Mint, Alpine), Windows 7/8/10, Windows Server 12/19/22
       
   favorites:
     number: 7️⃣
@@ -69,18 +73,3 @@ spec:
     emoji: 😮
     food: 🍨
 ```
-
-<!--
-**Kairosaki/Kairosaki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
